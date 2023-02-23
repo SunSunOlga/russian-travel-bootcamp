@@ -1,12 +1,5 @@
 
 .header__lang-link {
-  position: absolute;
-  width: 30px;
-  height: 28px;
-  right: 0;
-  top: 0;
-  padding: 0 0 0 18px;
-  margin: 46px 48px 0 0;
 font-style: normal;
 font-weight: 400;
 font-size: 24px;
@@ -17,5 +10,9 @@ color: #FFFFFF;
 
 .header__lang-link:first-of-type {
 text-decoration: underline;
-margin-right: 95px;
+padding-right: 18px;
+}
+
+.header__lang-link:hover {
+  opacity: .8;
 }
