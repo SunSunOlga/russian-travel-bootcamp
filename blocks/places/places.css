@@ -8,24 +8,24 @@
   color: #FFFFFF;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .places {
     max-width: 928px;
     margin: 92px 48px 0 48px;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .places {
     max-width: 720px;
     margin: 88px 24px 0 24px;
   }
  }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .places {
     max-width: 320px;
-    margin: 0 auto;
+    margin: 16px 16px 0 16px;
     display: flex;
     flex-direction: column;
   }

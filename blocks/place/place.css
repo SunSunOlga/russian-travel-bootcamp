@@ -12,33 +12,41 @@
   margin: 0;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .place{
     max-width: 928px;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .place {
     max-width: 720px;
   }
  }
 
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .place {
     max-width: 320px;
   }
  }
 
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .place {
     max-width: 320px;
     margin: 0 auto;
     background-size: cover;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+  }
+ }
 
+
+@media screen and (max-width: 320px) {
+  .place:last-of-type {
+    max-width: 320px;
+    margin: auto;
   }
  }

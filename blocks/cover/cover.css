@@ -5,10 +5,29 @@
   height: 740px;
 }
 
+@media screen and (max-width: 1024px) {
+  .cover {
+    margin-top: 92px;
+    width: 1024px;
+    max-height: 640px;
+    margin: 0 auto;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .cover {
+    width: 768px;
+    max-height: 480px;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .cover {
-    width: 320px;
+    max-width: 320px;
     max-height: 200px;
+    margin: 0 auto;
   }
 }
 
