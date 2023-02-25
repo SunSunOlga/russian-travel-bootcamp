@@ -1,7 +1,7 @@
 
 .place__link {
-  width: 456px;
-  height: 22px;
+  max-width: 456px;
+  max-height: 22px;
   padding: 0;
 font-style: normal;
 font-weight: 400;

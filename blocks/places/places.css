@@ -28,5 +28,7 @@
     margin: 16px 16px 0 16px;
     display: flex;
     flex-direction: column;
+    object-fit: cover;
+    overflow: hidden;
   }
  }
