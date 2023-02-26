@@ -18,8 +18,11 @@ color: #FFFFFF;
 }
 
 @media screen and (max-width: 767px) {
+  .footer__link {
+    padding: 0 0 32px 16px;
+     }
   .footer__link:first-of-type {
-    padding: 0 0 0 18px;
+    padding: 0 0 32px 18px;
   }
 }
 
