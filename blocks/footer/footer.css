@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 1023px) {
   .footer {
-    padding: 88px 24px 24px 24px
+    padding: 88px 48px 24px 48px;
   }
 }
 
@@ -43,9 +43,6 @@
 @media screen and (max-width: 320px) {
   .footer {
     max-width: 186px;
-    display: flex;
-    align-items: flex-start;
-  flex-direction: column;
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;

@@ -5,3 +5,9 @@
   flex-wrap: nowrap;
   justify-content: center;
 }
+
+@media screen and (max-width: 320px) {
+  .place__column-two {
+   padding-left: 16px;
+    }
+ }

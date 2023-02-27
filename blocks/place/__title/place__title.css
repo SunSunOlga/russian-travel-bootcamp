@@ -25,7 +25,7 @@ line-height: 76px;
   .place__title {
     font-size: 32px;
     line-height: 35px;
-    padding: 50px 0 32px 0;
+    padding: 50px 0 32px 16px;
   }
 }
 

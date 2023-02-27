@@ -11,6 +11,7 @@
   position: relative;
   text-decoration: none;
   z-index: 0;
+  background-size: cover;
 }
 
 .cover__link:hover:before {
@@ -39,30 +40,4 @@ opacity: 0.3;
   opacity: 1;
 }
 
-@media screen and (max-width: 1024px) {
-  .cover__link {
-    max-width: 1024px;
-  }
-}
 
-@media screen and (max-width: 768px) {
-  .cover__link {
-    max-width: 768px;
-    background-size: cover;
-  }
-}
-
-
-@media screen and (max-width: 767px) {
-  .cover__link {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover__link {
-    max-width: 320px;
-    box-sizing: content-box;
-    background-size: cover;
-  }
-}
