@@ -1,8 +1,7 @@
-
-.footer__link  {
-text-decoration: none;
-padding: 0 0 0 18px;
-color: #FFFFFF;
+.footer__link {
+  text-decoration: none;
+  padding: 0 0 0 18px;
+  color: #ffffff;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -20,18 +19,16 @@ color: #FFFFFF;
 @media screen and (max-width: 767px) {
   .footer__link {
     padding: 0 0 32px 16px;
-     }
+    font-size: 24px;
+    line-height: 24px;
+  }
   .footer__link:first-of-type {
     padding: 0 0 32px 18px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .footer__link {
- padding: 0 0 32px 16px;
+  .footer__link:first-of-type {
+    padding: 0 0 32px 16px;
   }
- .footer__link:first-of-type {
-  padding: 0 0 32px 16px;
 }
-  }
-

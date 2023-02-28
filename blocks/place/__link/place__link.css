@@ -1,14 +1,13 @@
-
 .place__link {
   max-width: 456px;
   padding: 0;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-border-bottom: 1px solid currentColor;
-text-decoration-line:none;
-color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  border-bottom: 1px solid currentColor;
+  text-decoration-line: none;
+  color: #ffffff;
 }
 
 .place__link:hover {

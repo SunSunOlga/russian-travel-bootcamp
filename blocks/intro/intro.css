@@ -1,32 +1,22 @@
-
 .intro {
   padding: 92px 0 0 148px;
   margin: 0;
   max-width: 690px;
   display: flex;
   flex-direction: column;
-   color: #FFFFFF;
+  color: #ffffff;
 }
-
-@media screen and (max-width: 1279px) {
-  .intro {
-      padding: 56px 0 0 48px;
-   }
-  }
 
 @media screen and (max-width: 1024px) {
-.intro {
+  .intro {
     padding: 92px 0 0 48px;
- }
+  }
 }
 
-
 @media screen and (max-width: 768px) {
-.intro {
-    max-width: 720px;
+  .intro {
     padding: 88px 24px 0 24px;
-
-   }
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -36,9 +26,7 @@
 }
 
 @media screen and (max-width: 320px) {
-.intro {
-    max-width: 288px;
+  .intro {
     padding: 62px 16px 0 16px;
-
-}
+  }
 }
