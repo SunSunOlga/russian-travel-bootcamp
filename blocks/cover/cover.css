@@ -1,14 +1,14 @@
 .cover {
-  padding-top: 12px;
+  padding-top: 92px;
   margin: 0 auto;
   max-width: 1184px;
   min-height: 740px;
   position: relative;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
-    padding: 0;
     max-width: 1024px;
     min-height: 640px;
   }
@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 768px) {
   .cover {
-    padding-top: 56px;
+    padding-top: 90px;
     width: 100%;
     min-height: 480px;
   }
@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 320px) {
   .cover {
-    padding-top: 16px;
+    padding-top: 66px;
     min-height: 200px;
   }
 }

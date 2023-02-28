@@ -1,6 +1,6 @@
 .footer__link {
   text-decoration: none;
-  padding: 0 0 0 18px;
+  padding: 0 18px 0 0;
   color: #ffffff;
   font-style: normal;
   font-weight: 400;
@@ -8,7 +8,7 @@
   line-height: 18px;
 }
 
-.footer__link:first-of-type {
+.footer__link:last-of-type{
   padding: 0;
 }
 
@@ -22,13 +22,8 @@
     font-size: 24px;
     line-height: 24px;
   }
-  .footer__link:first-of-type {
-    padding: 0 0 32px 18px;
+  .footer__link:last-of-type{
+    padding-left:  16px;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .footer__link:first-of-type {
-    padding: 0 0 32px 16px;
-  }
-}

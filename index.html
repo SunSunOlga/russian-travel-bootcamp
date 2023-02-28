@@ -13,19 +13,25 @@
 
   <header class="header">
     <img class="header__logo" src="./images/__logo.svg" alt="Логотип Карта России.">
-    <div class="header__lang-links">
-      <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
-      <a class="header__lang-link" href="#">En</a>
-    </div>
+    <ul class="header__lang-links">
+      <li class="header__lang-list"><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
+      <li class="header__lang-list"><a class="header__lang-link" href="#">En</a></li>
+    </ul>
   </header>
 
-  <div class="lead">
+<main>
+
+  <section class="lead">
 
     <h1 class="lead__title">Путешествия по России</h1>
-    <h2 class="lead__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.</h2>
+    <p class="lead__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.</p>
+
+    <figure class="lead__figure">
     <img src="./images/__image(1).jpg" alt="Девушка в вагоне." class="lead__image">
-    <p class="lead__caption">ВАША ПОЛКА — ВЕРХНЯЯ</p>
-  </div>
+    <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+    </figure>
+
+  </section>
 
 
 
@@ -43,7 +49,6 @@
       описали некоторые интересные места, достойные вашего отпуска.</p>
 
     <ul class="intro__list">
-
       <li>Часовых поясов <span class="intro__list-font">11</span></li>
       <li>Объектов природного наследия ЮНЕСКО <span class="intro__list-font">12</span></li>
       <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list-font">16</span></li>
@@ -71,11 +76,11 @@
 
   <section class="places">
 
-    <div class="place">
+    <article class="place">
 
       <h2 class="place__title">Куршская коса</h2>
       <div class="place__website">
-        <p class="place__url-heading">URL</p>
+        <p class="place__url-heading">url</p>
         <a href="http://park-kosa.ru" target="_blank" class="place__link">park-kosa.ru</a>
       </div>
 
@@ -95,16 +100,14 @@
           мест исключает суету, окуная в&nbsp;спокойствие
           природы и&nbsp;запах стального, прохладного моря.</p>
       </div>
-    </div>
+    </article>
 
 
-
-
-    <div class="place">
+    <article class="place">
 
       <h2 class="place__title">Кольский</h2>
       <div class="place__website">
-        <p class="place__url-heading">URL</p>
+        <p class="place__url-heading">url</p>
         <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank" class="place__link">National
           Geographic</a>
       </div>
@@ -126,13 +129,13 @@
           северное сияние начинает сбываться с&nbsp;билетом
           в&nbsp;Мурманск.</p>
       </div>
-    </div>
+    </article>
 
-    <div class="place">
+    <article class="place">
 
       <h2 class="place__title">Алтай</h2>
       <div class="place__website">
-        <p class="place__url-heading">URL</p>
+        <p class="place__url-heading">url</p>
         <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank" class="place__link">YouTube</a>
       </div>
 
@@ -152,13 +155,13 @@
           пасутся косули. И&nbsp;знаменитые манулы&nbsp;&mdash; тоже
           обитатели Алтайского края.</p>
       </div>
-    </div>
+    </article>
 
-    <div class="place">
+    <article class="place">
 
       <h2 class="place__title">Зимний Байкал</h2>
       <div class="place__website">
-        <p class="place__url-heading">URL</p>
+        <p class="place__url-heading">url</p>
         <a href="https://vk.com/baikalmile" target="_blank" class="place__link">https://vk.com/baikalmile</a>
       </div>
 
@@ -177,13 +180,13 @@
           на&nbsp;фестивале &laquo;Байкальская миля&raquo; был поставлен
           мировой рекорд&nbsp;&mdash; 197.011&nbsp;км/ч.</p>
       </div>
-    </div>
+    </article>
 
-    <div class="place">
+    <article class="place">
 
       <h2 class="place__title">Карелия</h2>
       <div class="place__website">
-        <p class="place__url-heading">URL</p>
+        <p class="place__url-heading">url</p>
         <a href="http://vodlozero.ru" target="_blank" class="place__link">http://vodlozero.ru/</a>
       </div>
 
@@ -203,20 +206,22 @@
           в паре метров от земли помечены медвежьими
           когтями. Чтобы все знали, кто тут хозяин..</p>
       </div>
-    </div>
+  </article>
   </section>
 
   <section class="cover">
     <a class="cover__link" target="_blank" href="https://stampsy.com/na-elektrichkakh-do-baikala">
       <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
-      <h3 class="cover__subtitle">По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash;
+      <p class="cover__subtitle">По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash;
         путешествие от&nbsp;столицы до&nbsp;Байкала
-        на&nbsp;электричках.</h3>
+        на&nbsp;электричках.</p>
     </a>
 
   </section>
 
-  <section class="footer">
+</main>
+
+  <footer class="footer">
 
     <nav class="footer__links">
       <a class="footer__link" target="_blank" href="https://yandex.ru/maps">Карты</a>
@@ -227,9 +232,7 @@
     </nav>
     <p class="footer__copyright">&copy;2023. Ольга</p>
 
-  </section>
-
+  </footer>
 
 </body>
-
 </html>
